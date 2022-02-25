@@ -10,7 +10,7 @@
               :image="image"
             />
           </ul> -->
-          <ul :v-if="isSp" class="image-list-vertical">
+          <ul class="image-list-vertical">
             <ImageItem
               v-for="(image, index) in VerticalImages"
               :key="index"
@@ -43,16 +43,12 @@ export default {
   data() {
     return {
       horizontalImages,
-      VerticalImages,
-      isSp: false
+      VerticalImages
     };
   },
   created() {},
   mounted() {
     setThreeRender(this.$refs.webgl_canvas);
-    if (window.innerWidth < 768) {
-      this.isSp = true;
-    }
   }
 };
 </script>
