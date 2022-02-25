@@ -10,7 +10,7 @@
               :image="image"
             />
           </ul> -->
-          <ul :v-if="isSp" ="image-list-vertical">
+          <ul :v-if="isSp" class="image-list-vertical">
             <ImageItem
               v-for="(image, index) in VerticalImages"
               :key="index"
