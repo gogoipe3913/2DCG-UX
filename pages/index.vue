@@ -13,3 +13,9 @@ export default Vue.extend({
   }
 });
 </script>
+
+<style scoped>
+body {
+  background-color: #000;
+}
+</style>
