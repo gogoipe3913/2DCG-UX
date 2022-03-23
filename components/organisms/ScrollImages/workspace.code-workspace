@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../three-scoll-reform/images"
+	}
+],
+  "settings": {
+    "vetur.format.enable": false,
+    "html.format.enable": false,
+    "vetur.validation.template": false,
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+    "vetur.validation.script": false,
+    "vetur.validation.style": false
+  }
+}
